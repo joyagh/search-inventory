@@ -16,7 +16,7 @@ public class StoreApp {
         ArrayList<Product> inventory = new ArrayList<Product>();
 // this method loads product objects into inventory
 // and its details are not shown
-        inventory.add(new Product(21215, "Macbook",1299));
+        inventory.add(new Product(1234, "Hammer",19.49));
         return inventory;
     }
 }
